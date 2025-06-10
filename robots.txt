@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: none
+
+User-agent: *
+Allow: /index.html
+Allow:/index.html#about
+Allow:/index.html#project
+Allow:/index.html#resume
+Allow:/index.html#contact
+Sitemap:"http://127.0.0.1:5500/sitemap.xml";
