@@ -625,6 +625,15 @@
 .uil-images:before { content: '\ea37'; } /* '' */
 .uil-incoming-call:before { content: '\ea38'; } /* '' */
 .uil-info-circle:before { content: '\ea39'; } /* '' */
+.uil-linkedin {
+        font-size: 48px; /* Makes the icon larger */
+        color: #0077B5; /* LinkedIn's official blue color */
+        transition: color 0.3s; /* Smooth color transition on hover */
+    }
+
+    .uil-linkedin:hover {
+        color: #004d80; /* A darker blue on hover */
+    }
 .uil-instagram:before { content: '\ea3a'; } /* '' */
 .uil-invoice:before { content: '\ea3b'; } /* '' */
 .uil-jackhammer:before { content: '\ea3c'; } /* '' */
